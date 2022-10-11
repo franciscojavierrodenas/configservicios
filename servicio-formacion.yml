@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:XE
-    username: demoexp
-    password: demoexp  
+    url: jdbc:oracle:thin:@192.168.1.14:51521:XE
+    username: SLEBDE
+    password: SLEBDE00  
   jpa:
     hibernate:
       naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl

@@ -3,8 +3,8 @@ spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
     url: jdbc:oracle:thin:@localhost:1521:XE
-    username: numexp
-    password: numexp   
+    username: demoexp
+    password: demoexp   
   jpa:
     hibernate:
       naming.implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
